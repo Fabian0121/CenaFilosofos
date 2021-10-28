@@ -40,6 +40,7 @@ namespace CenaFilosofo
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -53,7 +54,7 @@ namespace CenaFilosofo
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(228, 162);
+            this.button2.Location = new System.Drawing.Point(226, 162);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -62,7 +63,7 @@ namespace CenaFilosofo
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(213, 249);
+            this.button3.Location = new System.Drawing.Point(211, 249);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace CenaFilosofo
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(213, 122);
+            this.button6.Location = new System.Drawing.Point(211, 122);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(29, 23);
             this.button6.TabIndex = 5;
@@ -98,7 +99,7 @@ namespace CenaFilosofo
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(228, 207);
+            this.button7.Location = new System.Drawing.Point(226, 207);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(33, 23);
             this.button7.TabIndex = 6;
@@ -142,11 +143,21 @@ namespace CenaFilosofo
             this.label1.TabIndex = 10;
             this.label1.Text = "Cena de filosofos";
             // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(435, 122);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 11;
+            this.button11.Text = "button11";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 373);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -178,6 +189,7 @@ namespace CenaFilosofo
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button11;
     }
 }
 
