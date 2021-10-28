@@ -91,7 +91,7 @@ namespace CenaFilosofo
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
+            this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.Location = new System.Drawing.Point(241, 253);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
