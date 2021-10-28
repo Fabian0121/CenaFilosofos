@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace CenaFilosofo
 {
@@ -15,8 +16,27 @@ namespace CenaFilosofo
         public Form1()
         {
             InitializeComponent();
+            
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
