@@ -13,25 +13,14 @@ namespace CenaFilosofo
 {
     public partial class Form1 : Form
     {
+        public Mutex mutex = new Mutex();
+        //
+        //public void 
+        //
         public Form1()
         {
             InitializeComponent();
-            
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
+                      
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
