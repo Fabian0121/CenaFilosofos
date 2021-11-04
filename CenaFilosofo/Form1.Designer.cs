@@ -30,16 +30,16 @@ namespace CenaFilosofo
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btn_f1C = new System.Windows.Forms.Button();
+            this.btn_f2C = new System.Windows.Forms.Button();
+            this.btn_f3C = new System.Windows.Forms.Button();
+            this.btn_f4C = new System.Windows.Forms.Button();
+            this.btn_f5C = new System.Windows.Forms.Button();
+            this.btn_p1 = new System.Windows.Forms.Button();
+            this.btn_p2 = new System.Windows.Forms.Button();
+            this.btn_p3 = new System.Windows.Forms.Button();
+            this.btn_p4 = new System.Windows.Forms.Button();
+            this.btn_p5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -71,96 +71,105 @@ namespace CenaFilosofo
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_f1C
             // 
-            this.button1.Location = new System.Drawing.Point(138, 83);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Filosofo 1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_f1C.Enabled = false;
+            this.btn_f1C.Location = new System.Drawing.Point(138, 83);
+            this.btn_f1C.Name = "btn_f1C";
+            this.btn_f1C.Size = new System.Drawing.Size(75, 23);
+            this.btn_f1C.TabIndex = 0;
+            this.btn_f1C.Text = "Filosofo 1";
+            this.btn_f1C.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_f2C
             // 
-            this.button2.Location = new System.Drawing.Point(226, 151);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Filosofo 2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_f2C.Enabled = false;
+            this.btn_f2C.Location = new System.Drawing.Point(226, 151);
+            this.btn_f2C.Name = "btn_f2C";
+            this.btn_f2C.Size = new System.Drawing.Size(75, 23);
+            this.btn_f2C.TabIndex = 1;
+            this.btn_f2C.Text = "Filosofo 2";
+            this.btn_f2C.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_f3C
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.Control;
-            this.button3.Location = new System.Drawing.Point(241, 253);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Filosofo 3";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_f3C.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_f3C.Enabled = false;
+            this.btn_f3C.Location = new System.Drawing.Point(241, 253);
+            this.btn_f3C.Name = "btn_f3C";
+            this.btn_f3C.Size = new System.Drawing.Size(75, 23);
+            this.btn_f3C.TabIndex = 2;
+            this.btn_f3C.Text = "Filosofo 3";
+            this.btn_f3C.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn_f4C
             // 
-            this.button4.Location = new System.Drawing.Point(42, 253);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Filosofo 4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_f4C.Enabled = false;
+            this.btn_f4C.Location = new System.Drawing.Point(42, 253);
+            this.btn_f4C.Name = "btn_f4C";
+            this.btn_f4C.Size = new System.Drawing.Size(75, 23);
+            this.btn_f4C.TabIndex = 3;
+            this.btn_f4C.Text = "Filosofo 4";
+            this.btn_f4C.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btn_f5C
             // 
-            this.button5.Location = new System.Drawing.Point(42, 151);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Filosofo 5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_f5C.Enabled = false;
+            this.btn_f5C.Location = new System.Drawing.Point(42, 151);
+            this.btn_f5C.Name = "btn_f5C";
+            this.btn_f5C.Size = new System.Drawing.Size(75, 23);
+            this.btn_f5C.TabIndex = 4;
+            this.btn_f5C.Text = "Filosofo 5";
+            this.btn_f5C.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn_p1
             // 
-            this.button6.Location = new System.Drawing.Point(203, 124);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(29, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "1";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_p1.Location = new System.Drawing.Point(203, 124);
+            this.btn_p1.Name = "btn_p1";
+            this.btn_p1.Size = new System.Drawing.Size(29, 23);
+            this.btn_p1.TabIndex = 5;
+            this.btn_p1.Text = "1";
+            this.btn_p1.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btn_p2
             // 
-            this.button7.Location = new System.Drawing.Point(226, 217);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(33, 23);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "2";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_p2.Enabled = false;
+            this.btn_p2.Location = new System.Drawing.Point(226, 217);
+            this.btn_p2.Name = "btn_p2";
+            this.btn_p2.Size = new System.Drawing.Size(33, 23);
+            this.btn_p2.TabIndex = 6;
+            this.btn_p2.Text = "2";
+            this.btn_p2.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btn_p3
             // 
-            this.button8.Location = new System.Drawing.Point(158, 274);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(35, 23);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "3";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_p3.Enabled = false;
+            this.btn_p3.Location = new System.Drawing.Point(158, 274);
+            this.btn_p3.Name = "btn_p3";
+            this.btn_p3.Size = new System.Drawing.Size(35, 23);
+            this.btn_p3.TabIndex = 7;
+            this.btn_p3.Text = "3";
+            this.btn_p3.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btn_p4
             // 
-            this.button9.Location = new System.Drawing.Point(87, 217);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(30, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "4";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_p4.Enabled = false;
+            this.btn_p4.Location = new System.Drawing.Point(87, 217);
+            this.btn_p4.Name = "btn_p4";
+            this.btn_p4.Size = new System.Drawing.Size(30, 23);
+            this.btn_p4.TabIndex = 8;
+            this.btn_p4.Text = "4";
+            this.btn_p4.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btn_p5
             // 
-            this.button10.Location = new System.Drawing.Point(113, 124);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(33, 23);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "5";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_p5.Enabled = false;
+            this.btn_p5.Location = new System.Drawing.Point(113, 124);
+            this.btn_p5.Name = "btn_p5";
+            this.btn_p5.Size = new System.Drawing.Size(33, 23);
+            this.btn_p5.TabIndex = 9;
+            this.btn_p5.Text = "5";
+            this.btn_p5.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -184,6 +193,7 @@ namespace CenaFilosofo
             // 
             // textBox1
             // 
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(488, 220);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -191,6 +201,7 @@ namespace CenaFilosofo
             // 
             // textBox2
             // 
+            this.textBox2.Enabled = false;
             this.textBox2.Location = new System.Drawing.Point(488, 324);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
@@ -198,6 +209,7 @@ namespace CenaFilosofo
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(488, 298);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -205,6 +217,7 @@ namespace CenaFilosofo
             // 
             // textBox4
             // 
+            this.textBox4.Enabled = false;
             this.textBox4.Location = new System.Drawing.Point(488, 272);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
@@ -212,6 +225,7 @@ namespace CenaFilosofo
             // 
             // textBox5
             // 
+            this.textBox5.Enabled = false;
             this.textBox5.Location = new System.Drawing.Point(488, 246);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
@@ -300,6 +314,7 @@ namespace CenaFilosofo
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.Aqua;
+            this.button11.Enabled = false;
             this.button11.Location = new System.Drawing.Point(419, 83);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(23, 13);
@@ -309,6 +324,7 @@ namespace CenaFilosofo
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button12.Enabled = false;
             this.button12.Location = new System.Drawing.Point(419, 168);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(23, 14);
@@ -318,6 +334,7 @@ namespace CenaFilosofo
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button13.Enabled = false;
             this.button13.Location = new System.Drawing.Point(419, 148);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(23, 13);
@@ -327,6 +344,7 @@ namespace CenaFilosofo
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.Green;
+            this.button14.Enabled = false;
             this.button14.Location = new System.Drawing.Point(419, 124);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(23, 13);
@@ -336,6 +354,7 @@ namespace CenaFilosofo
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.button15.Enabled = false;
             this.button15.Location = new System.Drawing.Point(419, 105);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(23, 13);
@@ -345,6 +364,7 @@ namespace CenaFilosofo
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.Yellow;
+            this.button16.Enabled = false;
             this.button16.Location = new System.Drawing.Point(419, 62);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(23, 13);
@@ -442,16 +462,16 @@ namespace CenaFilosofo
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_p5);
+            this.Controls.Add(this.btn_p4);
+            this.Controls.Add(this.btn_p3);
+            this.Controls.Add(this.btn_p2);
+            this.Controls.Add(this.btn_p1);
+            this.Controls.Add(this.btn_f5C);
+            this.Controls.Add(this.btn_f4C);
+            this.Controls.Add(this.btn_f3C);
+            this.Controls.Add(this.btn_f2C);
+            this.Controls.Add(this.btn_f1C);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "Form1";
@@ -465,16 +485,16 @@ namespace CenaFilosofo
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btn_f1C;
+        private System.Windows.Forms.Button btn_f2C;
+        private System.Windows.Forms.Button btn_f3C;
+        private System.Windows.Forms.Button btn_f4C;
+        private System.Windows.Forms.Button btn_f5C;
+        private System.Windows.Forms.Button btn_p1;
+        private System.Windows.Forms.Button btn_p2;
+        private System.Windows.Forms.Button btn_p3;
+        private System.Windows.Forms.Button btn_p4;
+        private System.Windows.Forms.Button btn_p5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
