@@ -74,6 +74,8 @@ namespace CenaFilosofo
             // btn_f1C
             // 
             this.btn_f1C.Enabled = false;
+            this.btn_f1C.FlatAppearance.BorderSize = 0;
+            this.btn_f1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_f1C.Location = new System.Drawing.Point(138, 83);
             this.btn_f1C.Name = "btn_f1C";
             this.btn_f1C.Size = new System.Drawing.Size(75, 23);
@@ -84,6 +86,8 @@ namespace CenaFilosofo
             // btn_f2C
             // 
             this.btn_f2C.Enabled = false;
+            this.btn_f2C.FlatAppearance.BorderSize = 0;
+            this.btn_f2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_f2C.Location = new System.Drawing.Point(226, 151);
             this.btn_f2C.Name = "btn_f2C";
             this.btn_f2C.Size = new System.Drawing.Size(75, 23);
@@ -95,6 +99,8 @@ namespace CenaFilosofo
             // 
             this.btn_f3C.BackColor = System.Drawing.SystemColors.Control;
             this.btn_f3C.Enabled = false;
+            this.btn_f3C.FlatAppearance.BorderSize = 0;
+            this.btn_f3C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_f3C.Location = new System.Drawing.Point(241, 253);
             this.btn_f3C.Name = "btn_f3C";
             this.btn_f3C.Size = new System.Drawing.Size(75, 23);
@@ -105,6 +111,8 @@ namespace CenaFilosofo
             // btn_f4C
             // 
             this.btn_f4C.Enabled = false;
+            this.btn_f4C.FlatAppearance.BorderSize = 0;
+            this.btn_f4C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_f4C.Location = new System.Drawing.Point(42, 253);
             this.btn_f4C.Name = "btn_f4C";
             this.btn_f4C.Size = new System.Drawing.Size(75, 23);
@@ -115,6 +123,8 @@ namespace CenaFilosofo
             // btn_f5C
             // 
             this.btn_f5C.Enabled = false;
+            this.btn_f5C.FlatAppearance.BorderSize = 0;
+            this.btn_f5C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_f5C.Location = new System.Drawing.Point(42, 151);
             this.btn_f5C.Name = "btn_f5C";
             this.btn_f5C.Size = new System.Drawing.Size(75, 23);
@@ -124,6 +134,8 @@ namespace CenaFilosofo
             // 
             // btn_p1
             // 
+            this.btn_p1.FlatAppearance.BorderSize = 0;
+            this.btn_p1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_p1.Location = new System.Drawing.Point(203, 124);
             this.btn_p1.Name = "btn_p1";
             this.btn_p1.Size = new System.Drawing.Size(29, 23);
@@ -134,6 +146,8 @@ namespace CenaFilosofo
             // btn_p2
             // 
             this.btn_p2.Enabled = false;
+            this.btn_p2.FlatAppearance.BorderSize = 0;
+            this.btn_p2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_p2.Location = new System.Drawing.Point(226, 217);
             this.btn_p2.Name = "btn_p2";
             this.btn_p2.Size = new System.Drawing.Size(33, 23);
@@ -144,6 +158,8 @@ namespace CenaFilosofo
             // btn_p3
             // 
             this.btn_p3.Enabled = false;
+            this.btn_p3.FlatAppearance.BorderSize = 0;
+            this.btn_p3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_p3.Location = new System.Drawing.Point(158, 274);
             this.btn_p3.Name = "btn_p3";
             this.btn_p3.Size = new System.Drawing.Size(35, 23);
@@ -154,6 +170,8 @@ namespace CenaFilosofo
             // btn_p4
             // 
             this.btn_p4.Enabled = false;
+            this.btn_p4.FlatAppearance.BorderSize = 0;
+            this.btn_p4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_p4.Location = new System.Drawing.Point(87, 217);
             this.btn_p4.Name = "btn_p4";
             this.btn_p4.Size = new System.Drawing.Size(30, 23);
@@ -164,6 +182,8 @@ namespace CenaFilosofo
             // btn_p5
             // 
             this.btn_p5.Enabled = false;
+            this.btn_p5.FlatAppearance.BorderSize = 0;
+            this.btn_p5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_p5.Location = new System.Drawing.Point(113, 124);
             this.btn_p5.Name = "btn_p5";
             this.btn_p5.Size = new System.Drawing.Size(33, 23);
